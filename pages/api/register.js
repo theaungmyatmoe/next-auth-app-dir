@@ -3,7 +3,6 @@ import {User} from "../../models/user.model";
 
 export default async function handler(req, res) {
     await connectToMongoDatabase();
-
     if (req.method === "POST") {
         try {
 
